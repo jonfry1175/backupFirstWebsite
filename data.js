@@ -1,12 +1,14 @@
 const nama = "jonfry";
 let usia = 10;
 
+
+
 let biodata = document.getElementById('biodata');
 
 function generateBiodata() {
     let generasi;
 
-    if(usia >= 10 && usia < 18) {  
+    if (usia >= 10 && usia < 18) {
         generasi = "generasi remaja"
     }
     else if (usia > 18 && usia <= 30) {
@@ -24,7 +26,7 @@ function generateBiodata() {
 
     return biodata.innerHTML = generasi;
 }
-    
+
 
 console.log(nama);
 console.log(usia);
